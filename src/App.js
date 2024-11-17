@@ -1,23 +1,24 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import AdminLogin from './components/AdminLogin';
+import DashboardLayout from './components/DashboardLayout';
+import Services from './components/Services';
+import AddService from './components/AddService';
+import BrandingPage from './components/BrandingPage';
+import Header from './components/Header';
+import AdminHeader from './components/AdminHeader';
+// import Branding from './components/Branding';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <AdminLogin />
+      <DashboardLayout />
+      <Services />
+      <AddService />
+      <BrandingPage />
+      <Header />
+      <AdminHeader />
     </div>
   );
 }
