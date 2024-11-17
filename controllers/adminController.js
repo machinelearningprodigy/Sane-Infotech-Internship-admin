@@ -19,7 +19,6 @@ exports.adminLogin = async (req, res) => {
   }
 };
 
-// Function to create an admin (only to be run once for setting up an admin account)
 exports.createAdmin = async (req, res) => {
   const { email, password } = req.body;
   try {

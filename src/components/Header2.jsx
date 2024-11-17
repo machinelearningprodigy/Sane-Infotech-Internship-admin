@@ -1,8 +1,8 @@
 import React from 'react';
-import './AdminHeader.css';
+import './Header2.css';
 import { Home, Palette, Settings, CreditCard, LogOut } from 'lucide-react';
 
-const AdminHeader = () => {
+const Header2 = () => {
   return (
     <div className="admin-container">
       {/* Sidebar */}
@@ -69,4 +69,4 @@ const AdminHeader = () => {
   );
 };
 
-export default AdminHeader;
+export default Header2;

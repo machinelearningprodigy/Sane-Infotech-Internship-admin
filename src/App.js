@@ -6,8 +6,7 @@ import Services from './components/Services';
 import AddService from './components/AddService';
 import BrandingPage from './components/BrandingPage';
 import Header from './components/Header';
-import AdminHeader from './components/AdminHeader';
-// import Branding from './components/Branding';
+import Header2 from './components/Header2';
 
 function App() {
   return (
@@ -17,8 +16,7 @@ function App() {
       <Services />
       <AddService />
       <BrandingPage />
-      <Header />
-      <AdminHeader />
+      <Header2 />
     </div>
   );
 }
