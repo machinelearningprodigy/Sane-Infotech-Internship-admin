@@ -18,7 +18,7 @@ function App() {
       <AddService />
       <BrandingPage />
       <Header2 />
-      <ClientLogos />
+      {/* <ClientLogos /> */}
     </div>
   );
 }
