@@ -7,6 +7,7 @@ import AddService from './components/AddService';
 import BrandingPage from './components/BrandingPage';
 import Header from './components/Header';
 import Header2 from './components/Header2';
+import ClientLogos from './components/ClientLogos';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <AddService />
       <BrandingPage />
       <Header2 />
+      <ClientLogos />
     </div>
   );
 }

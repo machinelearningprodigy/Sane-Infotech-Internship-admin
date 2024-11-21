@@ -2,6 +2,7 @@ const Admin = require('../models/Admin');
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 
+
 exports.adminLogin = async (req, res) => {
   const { email, password } = req.body;
 
@@ -19,6 +20,7 @@ exports.adminLogin = async (req, res) => {
   }
 };
 
+
 exports.createAdmin = async (req, res) => {
   const { email, password } = req.body;
   try {
@@ -30,3 +32,12 @@ exports.createAdmin = async (req, res) => {
     res.status(500).json({ error: error.message });
   }
 };
+
+
+
+
+
+
+
+
+
